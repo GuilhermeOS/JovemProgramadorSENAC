@@ -1,5 +1,5 @@
 class Triangulo():
-    def __init__(self, base, altura, lado1, lado2, lado3):
+    def __init__(self, lado1, lado2, lado3, base = None, altura = None):
         self.base = base
         self.altura = altura
         self.lado1 = lado1

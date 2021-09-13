@@ -64,8 +64,8 @@ elif formaEsolhida == 3:
         lado2 = int(input("Informe o segundo lado do triângulo: "))
         lado3 = int(input("Informe o terceiro lado do triângulo: "))
 
-        triangulo = Triangulo(base = None, altura = None,  lado1 = lado1, lado2 = lado2, lado3 = lado3)
-
+        triangulo = Triangulo(base = None, altura = None,lado1 = lado1, lado2 = lado2, lado3 = lado3)
+        
         perimetroTriangulo = triangulo.perimetroTriangulo()
 
         print(f"O perímetro do triângulo é {perimetroTriangulo}") 
