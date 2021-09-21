@@ -30,19 +30,7 @@ class Flor():
         #Uma das soluções para isso é usar o items, como feito acima, o método .items devolve as chaves e 
         #valores em sequencia.
     
-    def montaBuque():
-        quantidade = int(input("Informe a quantidade de flores desejadas: "))
-        valor = {}
-        flores = Flor.flores()
-        for _ in range(0, quantidade):
-            flor = str(input("Informe a flor desejada: "))
-            if flor in flores:
-                valor[flor] = flores[flor]
-                
-        print(valor)
-        valorTotal = sum(valor.values())
 
-        return valorTotal
 
 menu = Flor.menu()
 buque = Flor.montaBuque()
