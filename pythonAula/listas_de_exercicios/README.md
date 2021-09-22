@@ -1,0 +1,1 @@
+Eu havia perdido todos os códigos dos exercícios, então vou fazer tudo dnv e subir agora para o github para não perder dnv '-' 
